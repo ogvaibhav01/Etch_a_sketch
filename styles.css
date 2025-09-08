@@ -12,16 +12,18 @@ h1 {
     height: 400px;
     display: flex;
     margin: 100px auto;
+    background-color: white;
 }
 #EditGrid{
     display: flex;
     justify-content: right;
     gap: 10px;
+    margin-right: 300px;
 }
 .merge1 {
   display: flex;
-  flex-direction: row; /* Ensures horizontal layout */
-  gap: 20px;            /* Adds space between slider and button */
+  flex-direction: row; 
+  gap: 10px;            
   justify-content: center;
   align-items: center;
   margin-top: 20px;

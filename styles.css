@@ -1,5 +1,5 @@
 body {
-    background-color: #22C1C3;
+    background-color: #ebf3f3;
 }
 h1 {
     text-align: center;
@@ -13,3 +13,33 @@ h1 {
     display: flex;
     margin: 100px auto;
 }
+#EditGrid{
+    display: flex;
+    justify-content: right;
+}
+.merge1 {
+  display: flex;
+  flex-direction: row; /* Ensures horizontal layout */
+  gap: 20px;            /* Adds space between slider and button */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.buttons{
+    gap: 10px;
+}
+button {
+  display: inline-block; /* or remove this line entirely */
+  font-size: 26px;
+  align-self: flex-start;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: #a8fffcc4;
+  color: black;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+
+

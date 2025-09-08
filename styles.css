@@ -16,6 +16,7 @@ h1 {
 #EditGrid{
     display: flex;
     justify-content: right;
+    gap: 10px;
 }
 .merge1 {
   display: flex;
@@ -40,6 +41,10 @@ button {
   margin-top: 20px;
   padding: 10px 20px;
 }
-
+#sizeValue{
+    font-size: 30px;
+    font-family: Verdana;
+    
+}
 
 

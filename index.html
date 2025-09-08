@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-sketch</title>
-    <link rel="stylesheet" href="styles.css">
-    <h1>Etch-a-sketch</h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-a-sketch</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="merge1">
-        <div id="MainBox">
+  <h1>Etch-a-sketch</h1>
 
-        </div>
-        <div id="EditGrid">
-        <input type="range" id="sizeSlider" min="16" max="64" step="16" value="16">
-        <div id="buttons">
-            <button id="colorButton">Color</button>
-            <button id="rainbowButton" >Rainbow</button>
-            <button id="clearButton">Clear</button>
-        </div>
-        <span id="sizeValue">16 x 16</span>
-        </div>
+  <div class="merge1">
+    <div id="MainBox"></div>
+
+    <div id="EditGrid">
+      <input type="range" id="sizeSlider" min="16" max="64" step="16" value="16">
+      <div id="buttons">
+        <button id="colorButton">Color</button>
+        <button id="rainbowButton">Rainbow</button>
+        <button id="clearButton">Clear</button>
+      </div>
+      <span id="sizeValue"></span>
     </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

@@ -66,4 +66,17 @@ button {
   top: -20px; /* move it above */
   left: 10px; /* move it slightly to the side */
 }
+@font-face {
+  font-family: 'DoubleTroubleSara';
+  src: url('fonts/DoubleTroubleSaraRegular.ttf') format('truetype');
+}
 
+h1, button {
+  font-family: 'DoubleTroubleSara', cursive;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #555;
+}

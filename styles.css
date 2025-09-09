@@ -16,8 +16,14 @@ h1 {
 }
 #EditGrid{
     display: flex;
+    background-color: #d7fffefe;
     justify-content: right;
+    flex-direction: column;
+    height: 200px;
+    padding: 30px;
+    border-radius: 5%;
     gap: 10px;
+    border: 2px solid black;
     margin-right: 300px;
 }
 .merge1 {

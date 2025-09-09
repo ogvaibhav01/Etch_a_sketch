@@ -54,5 +54,16 @@ button {
     font-family: Verdana;
     
 }
+.editWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
+.chooseColor {
+  position: absolute;
+  top: -20px; /* move it above */
+  left: 10px; /* move it slightly to the side */
+}
 

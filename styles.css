@@ -8,11 +8,13 @@ h1 {
 }
 #MainBox{
     border: 2px solid black;
-    width: 400px;
-    height: 400px;
     display: flex;
     margin: 100px auto;
     background-color: white;
+    width: 90vmin;
+    height: 90vmin;
+
+
 }
 #EditGrid{
     display: flex;
@@ -29,10 +31,13 @@ h1 {
 .merge1 {
   display: flex;
   flex-direction: row; 
-  gap: 10px;            
+  /* gap: 10px;             */
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 .buttons{
     gap: 10px;
